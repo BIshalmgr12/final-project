@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - YumFusion</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>YumFusion</h1>
+        </div>
+    </header>
+
+    <nav><a href="homepage.html"></a></nav>
+    <nav><a href="menu.html"></a></nav>
+    <nav><a href="about.html"></a></nav>
+    
+    <div class="container">
+        <div class="hours">
+            <h2>Hours of Operation</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Opening Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>10:00 AM - 10:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>10:00 AM - 10:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>10:00 AM - 10:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>10:00 AM - 10:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>10:00 AM - 10:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>10:00 AM - 10:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>11:00 AM - 12:00 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="contact">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="contact-info">
+            <p><strong>Address:</strong> 176 Yonge St, Toronto, ON M5C 2L7</p>
+                <div class="map">
+                <iframe
+                    width="500"
+                    height="500"
+                    loading="lazy"
+                    allowfullscreen
+                    src="https://www.google.com/maps/place/176+Yonge+St,+Toronto,+ON+M5C+2L7">
+                </iframe>
+                </div>
+            <p><strong>Phone:</strong><a href="tel:+1234567890">(123) 456-7890</a></p>
+            <p><strong>Email:</strong> <a href="mailto:info@restaurant.com">info@restaurant.com</a></p>
+            <p><strong>Follow us on social media:</strong></p>
+            <p>
+                <a href="https://facebook.com/YumFusion" target="_blank">Facebook</a> |
+                <a href="https://instagram.com/YumFusion" target="_blank">Instagram</a> |
+                <a href="https://twitter.com/YumFusion" target="_blank">Twitter</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="contact-form">
+            <form action="submit_form.php" method="post">
+                
+                <strong><label for="first-name">First Name:</label></strong>
+                <input type="text" id="first-name" name="first_name" required>
+
+                <strong><label for="last-name">Last Name:</label></strong>
+                <input type="text" id="last-name" name="last_name" required>
+
+                <strong><label for="telephone">Telephone:</label></strong>
+                <input type="tel" id="telephone" name="telephone" required>
+
+                <strong><label for="email">Email:</label></strong>
+                <input type="email" id="email" name="email" required>
+
+                <strong><label for="message">Message:</label></strong>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <button type="submit"><strong>Send Message</strong></button>
+            </form>
+</body>
+</html>
